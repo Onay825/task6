@@ -1,0 +1,21 @@
+#p_3
+dic={
+    "name":"dodo",
+    "age":15,
+    "BOD":"20/10/2008",
+    "PHONE_num":"01281239018"
+}
+print(dic)
+print(dic.get("BOD"),dic.get("name"),dic.get("PHONE_num"))
+print(dic["name"])
+dic.update({"hobby":"vilon"})
+dic["favouritr_color"]="blue"
+print(dic)
+dic.pop("PHONE_num")
+print(dic)
+dic.popitem()
+print(dic)
+del dic["age"]
+print(dic)
+dic.clear()
+print(dic)
